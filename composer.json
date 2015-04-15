@@ -1,0 +1,38 @@
+{
+    "name": "madand/yii2-underscore",
+    "description": "Underscore.js asset for Yii2",
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2",
+        "underscore",
+        "underscorejs",
+        "underscore js"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/MadAnd/yii2-underscore",
+    "authors": [
+        {
+            "name": "MadAnd",
+            "email": "dev@madand.net",
+            "homepage": "https://github.com/MadAnd",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/underscore": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "madand\\underscore\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
