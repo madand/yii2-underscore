@@ -13,6 +13,6 @@ class UnderscoreAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/bower/underscore';
     public $js = [
-        'underscore-min.js',
+        YII_ENV_DEV ? 'underscore.js' : 'underscore-min.js',
     ];
 }
